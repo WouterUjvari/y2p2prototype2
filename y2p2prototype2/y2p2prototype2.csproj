@@ -282,8 +282,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ClickTodd.cs" />
+    <Compile Include="Assets\Coin.cs" />
     <Compile Include="Assets\DestroyThis.cs" />
+    <Compile Include="Assets\Dialogue.cs" />
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Sack.cs" />
+    <Compile Include="Assets\SpawnObject.cs" />
+    <Compile Include="Assets\Upgrades.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
